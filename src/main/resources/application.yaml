@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: app_security
+  security:
+    user:
+      name: debugger
+      password: ideas
