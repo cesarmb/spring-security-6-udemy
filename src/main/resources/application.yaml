@@ -1,7 +1,10 @@
 spring:
   application:
     name: app_security
-  security:
-    user:
-      name: debugger
-      password: ideas
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security_bank
+    username: cesar
+    password: cesar
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 5
